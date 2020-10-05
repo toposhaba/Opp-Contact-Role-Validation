@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp Contact Role Validation</fullName>
+    <types>
+        <members>OppTriggerHandler</members>
+        <members>Test_OppTrigger</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>OppTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt.Active__c</members>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt.Contact_Roles__c</members>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt.Opp_Stage__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opp_Stage_Contact_Role_Mapping.Closed_Won_Stage</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Bypass_Opp_Contact_Req</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt-Opp Stage Contact Role Mapping Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Opp_Stage_Contact_Role_Mapping__mdt.All_Fields</members>
+        <name>ListView</name>
+    </types>
+    <version>49.0</version>
+</Package>
